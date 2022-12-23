@@ -1,0 +1,14 @@
+.text {
+    text-align: center;
+    top: 30%;
+    left: 35%;
+}
+.c-text {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+}
+.carousel-custom {
+    height: 600px;
+    overflow: hidden;
+}

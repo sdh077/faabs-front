@@ -1,0 +1,68 @@
+@import url(../fonts/tt-hoves/stylesheet.css);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  font-family: "TT Hoves", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  @apply h-full;
+}
+
+#root {
+  @apply h-full;
+}
+
+/* width */
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+.breadcrumb-item a {
+  color: var(--bs-link-color);
+  text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+  color: var(link-decoration);
+  text-decoration: none;
+}
+
+.text-white .breadcrumb-item a {
+  --bs-text-opacity: .75;
+  color: white;
+  text-decoration: none;
+}
+
+.text-white .breadcrumb-item a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+
+.main-color {
+  color: var(--bs-indigo) !important;
+}
+
+.design-theme {
+  --tw-bg-opacity: 1;
+  background-color: white;;
+  /* background-color: rgb(243 244 246 / var(--tw-bg-opacity)); */
+}

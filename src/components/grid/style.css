@@ -1,0 +1,111 @@
+.card-hover-2 {
+    background-color: #110f1a;
+}
+
+.card-hover-2-overlay {
+    transition: all 0.25s ease-out;
+}
+
+
+
+.card-hover-2 img {
+    transition: opacity .25s, transform .4s;
+}
+
+
+
+.card-hover-2:hover img {
+    opacity: .5;
+}
+
+.card-hover-2:hover .card-hover-2-overlay {
+    transition: all 0.6s ease-in;
+}
+
+.card-hover-2 .card-hover-2-header p {
+    opacity: 0;
+    display: block;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 0.3s, transform 0.3s cubic-bezier(0.42, 0.01, 0.23, 1);
+}
+
+.card-hover-2:hover .card-hover-2-header p {
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+.card-hover-2-footer {
+    position: relative;
+}
+
+.card-hover-2-footer .card-hover-2-footer-link {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.card-hover-2-footer-link {
+    display: flex;
+    width: 100%;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.card-hover-2-footer-link span {
+    display: block;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 0.3s, transform 0.3s cubic-bezier(0.42, 0.01, 0.23, 1);
+}
+
+.card-hover-2-footer-link::after {
+    content: ">";
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-size: 24px 24px;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 0.3s, transform 0.3s cubic-bezier(0.42, 0.01, 0.23, 1);
+}
+
+.card-hover-2-footer .tags {
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    opacity: 1;
+    transition: opacity 0.3s, transform 0.3s cubic-bezier(0.42, 0.01, 0.23, 1);
+}
+
+.card-hover-2 .card-hover-2-footer .tags {
+    opacity: 1;
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+.card-hover-2:hover .card-hover-2-footer .tags {
+    opacity: 0;
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+.card-hover-2 .card-hover-2-footer .card-hover-2-footer-link span {
+    opacity: 0;
+    transform: translateY(100%);
+}
+
+.card-hover-2:hover .card-hover-2-footer .card-hover-2-footer-link span {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card-hover-2:hover .card-hover-2-footer .card-hover-2-footer-link ::after {
+    opacity: 1;
+    transform: translateX(0);
+}

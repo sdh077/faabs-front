@@ -1,0 +1,6 @@
+.breadcrumb-item {
+    text-decoration: none;
+}
+.breadcrumb-item.active a {
+    color: gray !important;
+}

@@ -1,0 +1,14 @@
+.fadein h1 {
+    --base-width: 8.2vw;
+    font-size: clamp(20px, var(--base-width), 700px);
+    font-weight: 700;
+    line-height: 1.2;
+    /* text-align: center; */
+    margin: 100px 0;
+    white-space: nowrap;
+    color: #ff0066;
+}
+
+.img-ex {
+    width: 500px;
+}

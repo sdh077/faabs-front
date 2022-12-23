@@ -1,0 +1,21 @@
+ul li a {
+  @apply py-2 px-4 rounded flex items-center gap-2;
+}
+
+ul li a.active {
+  @apply bg-gray-100 font-medium;
+}
+.header-absolute-top{
+  position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+    height: 60px;
+}
+.nav-item:hover .dropdown-menu{
+  display:block!important
+}
+.nav-item .dropdown-menu{
+  /* margin-top: 0.5rem; */
+}
