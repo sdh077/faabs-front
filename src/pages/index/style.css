@@ -1,30 +1,34 @@
-.index {
-    padding-bottom: 100px;
-}
 .display-5 {
     font-size: 3rem;
     font-weight: 500;
 }
-.left-img{
+
+.left-img {
     width: 300px;
 }
 
-.count-text{
+.count-text {
     font-size: 30px;
     font-weight: 600;
     text-align: center;
 }
-.count-under-text{
+
+.count-under-text {
     text-align: center;
     font-size: 15px;
 }
 
 .video-style {
-    top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
 }
+
 .vidoe-deco {
     transform: translate3d(0px, 115px, 0px);
 }
+
 .play-btn {
     background-color: #fff;
     text-transform: capitalize;
@@ -32,23 +36,29 @@
     font-weight: 500;
     --bs-btn-focus-box-shadow: 0 6px 30px -3px rgba(var(--bs-btn-focus-shadow-rgb), .325);
 }
-.btn-circle-ripple.btn-outline-white::before, .btn-circle-ripple.btn-white::before {
-    box-shadow: 0 0 0 1px #fff!important;
+
+.btn-circle-ripple.btn-outline-white::before,
+.btn-circle-ripple.btn-white::before {
+    box-shadow: 0 0 0 1px #fff !important;
 }
+
 @keyframes pulse {
     0% {
-      transform: scale(1);
-      opacity: 0;
+        transform: scale(1);
+        opacity: 0;
     }
+
     50% {
-      transform: scale(1);
-      opacity: 1;
+        transform: scale(1);
+        opacity: 1;
     }
+
     to {
-      transform: scale(1.5);
-      opacity: 0;
+        transform: scale(1.5);
+        opacity: 0;
     }
-  }
+}
+
 .btn-circle-ripple::before {
     content: "";
     display: block;
@@ -62,14 +72,17 @@
     -webkit-animation: pulse 2s infinite ease-in-out;
     animation: pulse 2s infinite ease-in-out;
 }
+
 .height-10x {
-    height: 6rem!important;
+    height: 6rem !important;
 }
+
 .width-10x {
-    width: 6rem!important;
+    width: 6rem !important;
 }
+
 .bx {
-    font-family: boxicons!important;
+    font-family: boxicons !important;
     font-weight: 400;
     font-style: normal;
     font-variant: normal;
@@ -81,6 +94,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
 .i-size {
     font-size: 3rem;
     line-height: 6rem;

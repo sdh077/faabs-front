@@ -3,12 +3,24 @@
     top: 30%;
     left: 35%;
 }
+
 .c-text {
     color: white;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2rem;
 }
-.carousel-custom {
-    height: 600px;
-    overflow: hidden;
+
+@media (min-width:993px) {
+    .carousel-custom {
+        overflow: hidden;
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .carousel-custom {
+        overflow: hidden;
+        height: 400px;
+        width: auto !important;
+    }
 }

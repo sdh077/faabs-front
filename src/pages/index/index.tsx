@@ -6,21 +6,25 @@ import IVideo from "$components/video";
 import CountUp from "react-countup";
 import { Link } from "react-router-dom";
 import './style.css';
+import Animation from '$components/animation'
 
 const Index = () => {
   return (
-    <div className="index">
+    <div className="">
       <ICarousel />
       <div className="position-relative">
         <div className="container py-9 py-lg-11 border-bottom">
           <div className="col-lg-10 col-xl-8 mx-auto text-center">
-            <span className="h6 text-muted">
-              <Scroll text={"welcome"} img={null} direction={'up'} value={100} />
-            </span>
-            <h2 className="display-5">
-              <Scroll text={"Reimagine your product with forward-thinking solutions"} img={null} direction={'up'} value={100} />
-            </h2>
-
+            <Scroll text={null} img={null} direction={'down'} value={10} >
+              <>
+                <span className="h6 text-muted">
+                  welcome
+                </span>
+                <h2 className="display-5">
+                  Reimagine your product with forward-thinking solutions
+                </h2>
+              </>
+            </Scroll>
           </div>
         </div>
         <div className="border-bottom">
@@ -28,11 +32,13 @@ const Index = () => {
             <div className="row">
               <div className="col-lg-6">
                 <div className="w-100 h-50 align-items-center py-20">
-                  <Scroll text={null} img={'img/contact.jpeg'} direction={'right'} value={200} />
+                  <Animation type={'fade-right'}>
+                    <img src={'img/contact.jpeg'} />
+                  </Animation>
                 </div>
               </div>
               <div className="col-lg-6 pl-10">
-                <Scroll direction={'left'} value={100} >
+              <Animation type={'fade-left'}>
                   <div className="mx-auto py-20">
                     <span className="h6 text-muted">
                       WHY CHOOSE US?
@@ -57,7 +63,7 @@ const Index = () => {
                       </div>
                     </div>
                   </div>
-                </Scroll>
+                </Animation>
               </div>
             </div>
           </div>
@@ -65,11 +71,11 @@ const Index = () => {
         <div className="border-bottom">
           <div className="container position-relative py-9 py-lg-11">
             <div className="row align-items-center">
-              <div className="col-lg-6 py-10">
-                <Scroll direction={'right'} value={100} >
+              <div className="col-lg-6 py-10 pl-10">
+                <Scroll direction={'down'} value={100}>
                   <div className="row">
                     <h3 className="display-5 mb-5 fw-bold">
-                    We believes in the power of creativity and posibilities.
+                      We believes in the power of creativity and posibilities.
                     </h3>
                     <div className="position-relative pb-2 rounded-4 overflow-hidden col-md-5 mb-5">
                       <div className="position-relative bg-light p-4 rounded-4">

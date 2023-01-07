@@ -33,7 +33,7 @@ const Login = () => {
     };
 
     dispatch(login(user));
-    navigate("/");
+    navigate("/partner");
   });
 
   return (

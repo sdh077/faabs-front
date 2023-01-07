@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
 import { BannerLayer } from "react-scroll-parallax/dist/components/ParallaxBanner/types";
 import "./style.css";
-import Form from 'react-bootstrap/Form';
-import InputGroup from 'react-bootstrap/InputGroup';
-
+import './script.js'
+import './choices.min.js'
 const Index = () => {
     const txt = [
         {
@@ -16,11 +15,9 @@ const Index = () => {
             title: `납품문의 및 상담신청
             `,
             content: `
-            Tel.  010-7412-0097 / 02-337-5080  (*상담 운영시간 8:00 - 17:00) 
+            Tel.  010-2956-6164 /  (*상담 운영시간 8:00 - 17:00) 
 
-            방문. 서울시 서대문구 연희로 135  앤트러사이트커피 LAB실
-            
-            E-mail.  factory@anthracitecoffee.com
+            방문. 서울시 새절역
             `,
         }
     ]
@@ -47,42 +44,17 @@ const Index = () => {
                                 Use the contact form if you have questions about our products. Our sales team will
                                 be happy to help you:
                             </p>
-                            <InputGroup className="mb-3">
-                                <InputGroup.Text id="basic-addon1">@</InputGroup.Text>
-                                <Form.Control
-                                    placeholder="Username"
-                                    aria-label="Username"
-                                    aria-describedby="basic-addon1"
-                                />
-                            </InputGroup>
-
-                            <InputGroup className="mb-3">
-                                <Form.Control
-                                    placeholder="Recipient's username"
-                                    aria-label="Recipient's username"
-                                    aria-describedby="basic-addon2"
-                                />
-                                <InputGroup.Text id="basic-addon2">@example.com</InputGroup.Text>
-                            </InputGroup>
-
-                            <Form.Label htmlFor="basic-url">Your vanity URL</Form.Label>
-                            <InputGroup className="mb-3">
-                                <InputGroup.Text id="basic-addon3">
-                                    https://example.com/users/
-                                </InputGroup.Text>
-                                <Form.Control id="basic-url" aria-describedby="basic-addon3" />
-                            </InputGroup>
-
-                            <InputGroup className="mb-3">
-                                <InputGroup.Text>$</InputGroup.Text>
-                                <Form.Control aria-label="Amount (to the nearest dollar)" />
-                                <InputGroup.Text>.00</InputGroup.Text>
-                            </InputGroup>
-
-                            <InputGroup>
-                                <InputGroup.Text>With textarea</InputGroup.Text>
-                                <Form.Control as="textarea" aria-label="With textarea" />
-                            </InputGroup>
+                            <div className="choices" data-type="select-one" tabIndex={0} role="listbox" aria-haspopup="true" aria-expanded="false">
+                                    <select id="chBasic" className="form-control" data-choices='{"searchEnabled":false, "allowHTML":true,"itemSelectText":""}'>
+                                        <option value="" disabled>Select User</option>
+                                        <option value="Adam">원두 납품</option>
+                                        <option value="Mark">지원하기</option>
+                                        <option value="John">John</option>
+                                        <option value="Varun">Varun</option>
+                                        <option value="Joseph">Joseph</option>
+                                        <option value="Smith">Smith</option>
+                                    </select>
+                            </div>
                         </form>
                     </div>
                     <div className="col-md-4">
@@ -91,16 +63,14 @@ const Index = () => {
                                 <div className="contact-text mb-0" key={idx}>
                                     <h4>{t.title}</h4>
                                     <div>{t.content}</div>
-                                    <div className="border-top border-2 border-secondary mb-4 mt-2 aos-init aos-animate" data-aos="fade-up"></div>
+                                    <div className="border-top border-2 border-secondary mb-4 mt-2"></div>
                                 </div>
                             ))}
                         </div>
                     </div>
-
-                </div>
-
+                </div >
             </div>
-        </div>
+        </div >
 
     );
 };

@@ -1,0 +1,100 @@
+[
+    {
+        "title": "FAABS",
+        "link": null,
+        "items": [
+            {
+                "title": "About",
+                "link": "/about"
+            },
+            {
+                "title": "Team",
+                "link": "/team"
+            },
+            {
+                "title": "History",
+                "link": "/history"
+            },
+            {
+                "title": "contact",
+                "link": "/contact"
+            },
+            {
+                "title": "equipment",
+                "link": "/equipment"
+            }
+        ]
+    },
+    {
+        "title": "커피 구독",
+        "link": null,
+        "items": [
+            {
+                "title": "커피구독",
+                "link": "/subscribe"
+            },
+            {
+                "title": "납품 및 컨설팅",
+                "link": "/consulting"
+            },
+            {
+                "title": "납부처 주문",
+                "link": "/office-order"
+            },
+            {
+                "title": "블랭딩 맞춤제작",
+                "link": "/blending"
+            }
+        ]
+    },
+    {
+        "title": "오피스 커피 구독",
+        "link": "office-subscribe",
+        "items": [
+            {
+                "title": "커피관리",
+                "link": "/office/service"
+            },
+            {
+                "title": "제품소개",
+                "link": "/office/project"
+            },
+            {
+                "title": "구독가격",
+                "link": "/office/price"
+            },
+            {
+                "title": "문의하기",
+                "link": "/office/contact"
+            }
+        ]
+    },
+    {
+        "title": "아카이브",
+        "link": null,
+        "items": [
+            {
+                "title": "Education",
+                "link": "/education"
+            },
+            {
+                "title": "LAB",
+                "link": "/lab"
+            },
+            {
+                "title": "Journal",
+                "link": "/journal"
+            }
+        ]
+    },
+    {
+        "title": "Shop",
+        "link": "/shop",
+        "items": [
+            {
+                "title": "Shop",
+                "link": "/shop"
+            }
+        ]
+    }
+]

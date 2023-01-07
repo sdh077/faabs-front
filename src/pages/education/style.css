@@ -1,0 +1,39 @@
+
+.title {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.sub-title {
+  font-size: 23px;
+  text-align: center;
+}
+
+.content {
+  font-size: 17px;
+  padding: 30px 40px;
+}
+
+.article {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.dropcap::first-letter {
+  float: left;
+  line-height: .5;
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin: 0 6px 0 0;
+  color: var(--bs-indigo);
+}
