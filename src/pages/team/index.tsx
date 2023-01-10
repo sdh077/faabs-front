@@ -24,7 +24,7 @@ const Index = () => {
                 <section>
                     <div className="sectionWrap">
                         <div data-aos="fade-right" data-aos-delay="250" className="section aos-init aos-animate">
-                            <img src="img/people/1.jpeg" className="peopleImg rotation" />
+                            <img src="/img/people/1.jpeg" className="peopleImg rotation" />
                         </div>
                         <div data-aos="fade-right" data-aos-delay="250" className="aos-init aos-animatesection">
                             <div className="title">

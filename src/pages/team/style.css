@@ -92,8 +92,8 @@
    -webkit-mask-size: contain;
    mask-size: contain;
 
-   -webkit-mask-image: url('img/people/mask.svg');
-   mask-image: url('img/people/mask.svg');
+   -webkit-mask-image: url('/img/people/mask.svg');
+   mask-image: url('/img/people/mask.svg');
 }
 .rotation {
    transform: rotateY(180deg)!important;
