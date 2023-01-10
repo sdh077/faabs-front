@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 bin
+http-common*
 
 # Editor directories and files
 .vscode/*

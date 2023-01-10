@@ -28,6 +28,6 @@
       "$utils/*": ["src/utils/*"]
     }
   },
-  "include": ["src"],
+  "include": ["src", "http-common.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

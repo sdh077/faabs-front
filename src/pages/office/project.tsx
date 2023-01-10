@@ -73,29 +73,29 @@ const index = () => {
               <h6 className="mb-3 text-muted aos-init aos-animate" data-aos="fade-up">아메리카노</h6>
               <h2 className="mb-4 mb-lg-5 position-relative display-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">Americano</h2>
               <p className="mb-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="150">
-                <li className="d-inline-flex me-3 mb-3 align-items-center">
+                <li className="d-flex align-items-center mb-3">
                   <div className="me-2 fs-4">
-                    <i className="bx bx-check-circle text-muted opacity-75 align-middle"></i>
+                    <i className="bx bx-check-circle text-muted opacity-75 align-middle me-2"></i>
                   </div>
-                  <div> '따뜻한 아메리카노' 버튼을 누르시면 됩니다. 기본 세팅된 진한 정도는 빈브라더스 매장 기준의 농도입니다. (TDS* 기준 1.3% 수준)</div>
+                  <span> '따뜻한 아메리카노' 버튼을 누르시면 됩니다. 기본 세팅된 진한 정도는 빈브라더스 매장 기준의 농도입니다. (TDS* 기준 1.3% 수준)</span>
                 </li>
-                <li className="d-inline-flex me-3 mb-3 align-items-center">
+                <li className="d-flex align-items-center mb-3">
                   <div className="me-2 fs-4">
-                    <i className="bx bx-check-circle text-muted opacity-75 align-middle"></i>
+                    <i className="bx bx-check-circle text-muted opacity-75 align-middle me-2"></i>
                   </div>
-                  <div>캡슐커피 정도로 연하게 드시고 싶으신 분들은 '연한 아메리카노' 버튼을 눌러주세요.</div>
+                  <span>캡슐커피 정도로 연하게 드시고 싶으신 분들은 '연한 아메리카노' 버튼을 눌러주세요.</span>
                 </li>
-                <li className="d-inline-flex me-3 mb-3 align-items-center">
+                <li className="d-flex align-items-center mb-3">
                   <div className="me-2 fs-4">
-                    <i className="bx bx-check-circle text-muted opacity-75 align-middle"></i>
+                    <i className="bx bx-check-circle text-muted opacity-75 align-middle me-2"></i>
                   </div>
-                  <div>따로 물을 추가하지 않으셔도 됩니다.</div>
+                  <span>따로 물을 추가하지 않으셔도 됩니다.</span>
                 </li>
-                <li className="d-inline-flex me-3 mb-3 align-items-center">
+                <li className="d-flex align-items-center mb-3">
                   <div className="me-2 fs-4">
-                    <i className="bx bx-check-circle text-muted opacity-75 align-middle"></i>
+                    <i className="bx bx-check-circle text-muted opacity-75 align-middle me-2"></i>
                   </div>
-                  <div> 한번에 추출되는 양은 130g 수준입니다. 일반 카페 사이즈 음료를 즐기고 싶으신 분들은 버튼을 두 번 눌러주세요.</div>
+                  <span> 한번에 추출되는 양은 130g 수준입니다. 일반 카페 사이즈 음료를 즐기고 싶으신 분들은 버튼을 두 번 눌러주세요.</span>
                 </li>
               </p>
               <div data-aos="fade-up" data-aos-delay="250" className="aos-init aos-animate">

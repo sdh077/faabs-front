@@ -1,4 +1,4 @@
-import http from "./http-common";
+import http from "../../http-common";
 import board from "../types/board";
 
 interface boardApi {

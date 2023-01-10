@@ -61,56 +61,52 @@ const Index = () => {
                         <img className="center" src={"/img/about/1.png"} />
                     </div>
                     <div className="col-md-6 col-lg-6">
-                        <div className="content mb-2">
-                            <span className="head-cap">
-                                FAABS
-                            </span>
-                            는 다섯가지 커피맛 표현의 앞 철자를 조합하여 만든 단어입니다.
-                            <br />
-                            <div className="lead">
-                                Flavor / Aroma / Acidity / Body / Sweetness
-                            </div>
-                        </div>
-                        <div className="content fw-normal">
-                            커피의 맛, 향, 산미, 바디감, 단맛의 적절한 조화 또는 강조를 통해 다양한 커피를 선보이고자 하는 것이 파브스 커피의 이름이 만들어진 이유입니다.
-                            <br />
-                            <br />
-                            파브스 커피는 커피 한잔이 주는 힘을 믿습니다. 그것은 사람과의 만남입니다.
-                            <br />
-                            커피를 통해 전해지는 것은 마음과 마음입니다.
-                            <br />
-                            <br />
-                            <ul className="list-unstyled text-dark">
-                                {[
-                                    '직접 로스팅한 하우스 블랜딩 원두로 에스프레소 음료를 제공합니다.',
-                                    '매달 새로운 싱글 오리진 원두를 로스팅하여 필터커피로 제공합니다.',
-                                    '직접 만든 수제 디저트를 제공합니다.',
-                                    '창업컨설팅 / 로스팅 교육 / 퍼블릭커핑을 진행합니다.',
-                                    '사업자 원두 납품 문의 070-7755-6164'
-                                ].map((item, i) => (
-                                    <li className="d-flex align-items-center mb-3" key={i}>
-                                        <i className="bx bx-check-circle fs-4 opacity-50 me-2"></i>
-                                        <span>
-                                            {item}
-                                        </span>
-                                    </li>
-
-                                ))}
-                            </ul>
-                        </div>
-                        <div className="content lead mb-4">
-                        </div>
+                        <img className="center" src={"/img/about/2.png"} />
                     </div>
+
                 </div>
                 <hr />
             </article>
             <article className="article">
                 <div className="row">
-                    <div className="col-md-6">
-
+                    <div className="content mb-2">
+                        <span className="head-cap">
+                            FAABS
+                        </span>
+                        는 다섯가지 커피맛 표현의 앞 철자를 조합하여 만든 단어입니다.
+                        <br />
+                        <div className="lead">
+                            Flavor / Aroma / Acidity / Body / Sweetness
+                        </div>
                     </div>
-                    <div className="col-md-6 col-lg-6">
-                        <img className="center" src={"/img/about/2.png"} />
+                    <div className="content fw-normal">
+                        커피의 맛, 향, 산미, 바디감, 단맛의 적절한 조화 또는 강조를 통해 다양한 커피를 선보이고자 하는 것이 파브스 커피의 이름이 만들어진 이유입니다.
+                        <br />
+                        <br />
+                        파브스 커피는 커피 한잔이 주는 힘을 믿습니다. 그것은 사람과의 만남입니다.
+                        <br />
+                        커피를 통해 전해지는 것은 마음과 마음입니다.
+                        <br />
+                        <br />
+                        <ul className="list-unstyled text-dark">
+                            {[
+                                '직접 로스팅한 하우스 블랜딩 원두로 에스프레소 음료를 제공합니다.',
+                                '매달 새로운 싱글 오리진 원두를 로스팅하여 필터커피로 제공합니다.',
+                                '직접 만든 수제 디저트를 제공합니다.',
+                                '창업컨설팅 / 로스팅 교육 / 퍼블릭커핑을 진행합니다.',
+                                '사업자 원두 납품 문의 070-7755-6164'
+                            ].map((item, i) => (
+                                <li className="d-flex align-items-center mb-3" key={i}>
+                                    <i className="bx bx-check-circle fs-4 opacity-50 me-2"></i>
+                                    <span>
+                                        {item}
+                                    </span>
+                                </li>
+
+                            ))}
+                        </ul>
+                    </div>
+                    <div className="content lead mb-4">
                     </div>
                 </div>
             </article>

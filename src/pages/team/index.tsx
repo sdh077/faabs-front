@@ -9,24 +9,24 @@ const Index = () => {
             <div className="">
                 <section>
                     <div className="text-center">
-                            <ParallaxProvider>
-                                <ParallaxBanner
-                                    layers={[{ image: '/img/1.jpg', speed: -15 }]}
-                                    className="aspect-[2/1] banner-img">
-                                    <div className="absolute inset-0 flex items-center justify-center">
-                                        <h1 className="text-8xl text-white font-thin fw-bold">Get in touch with us</h1>
-                                        <h3 className="text-2xl text-white font-thin"></h3>
-                                    </div>
-                                </ParallaxBanner>
-                            </ParallaxProvider>
+                        <ParallaxProvider>
+                            <ParallaxBanner
+                                layers={[{ image: '/img/1.jpg', speed: -15 }]}
+                                className="aspect-[2/1] banner-img">
+                                <div className="absolute inset-0 flex items-center justify-center">
+                                    <h1 className="text-8xl text-white font-thin fw-bold">Get in touch with us</h1>
+                                    <h3 className="text-2xl text-white font-thin"></h3>
+                                </div>
+                            </ParallaxBanner>
+                        </ParallaxProvider>
                     </div>
                 </section>
                 <section>
                     <div className="sectionWrap">
-                        <Parallax className="section" translateX={['-30%', '10%']}>
+                        <div data-aos="fade-right" data-aos-delay="250" className="section aos-init aos-animate">
                             <img src="img/people/1.jpeg" className="peopleImg rotation" />
-                        </Parallax>
-                        <Parallax className="section text-field" translateX={['30%', '0%']} easing="easeInQuad">
+                        </div>
+                        <div data-aos="fade-right" data-aos-delay="250" className="aos-init aos-animatesection">
                             <div className="title">
                                 Content
                             </div>
@@ -40,10 +40,10 @@ const Index = () => {
                                 Content strategy
                                 Content management systems (CMS)
                             </div>
-                        </Parallax>
+                        </div>
                     </div>
                     <div className="sectionWrap">
-                        <Parallax className="section text-field" translateX={['-30%', '10%']}>
+                        <div data-aos="fade-left" data-aos-delay="250" className="aos-init aos-animatesection">
                             <div className="title">
                                 Content
                             </div>
@@ -57,16 +57,16 @@ const Index = () => {
                                 Content strategy
                                 Content management systems (CMS)
                             </div>
-                        </Parallax>
-                        <Parallax className="section" translateX={['30%', '-10%']}>
+                        </div>
+                        <div data-aos="fade-right" data-aos-delay="250" className="section aos-init aos-animate">
                             <img src="/img/people/2.jpeg" className="peopleImg" />
-                        </Parallax>
+                        </div>
                     </div>
                     <div className="sectionWrap">
-                        <Parallax className="section" translateX={['-30%', '10%']}>
+                        <div data-aos="fade-right" data-aos-delay="250" className="section aos-init aos-animate">
                             <img src="/img/people/1.jpeg" className="peopleImg rotation" />
-                        </Parallax>
-                        <Parallax className="section text-field" translateX={['30%', '-10%']} easing="easeInQuad">
+                        </div>
+                        <div data-aos="fade-left" data-aos-delay="250" className="aos-init aos-animatesection">
                             <div className="title">
                                 Content
                             </div>
@@ -80,7 +80,7 @@ const Index = () => {
                                 Content strategy
                                 Content management systems (CMS)
                             </div>
-                        </Parallax>
+                        </div>
                     </div>
                 </section>
             </div>
